@@ -1,11 +1,14 @@
 #!/bin/sh
 set -e
 
+POSTGRES_HOST="${POSTGRES_HOST:-postgres}"
+POSTGRES_PORT="${POSTGRES_PORT:-5432}"
+POSTGRES_USER="${POSTGRES_USER:-postgres}"
+
 echo "Starting Next.js production server..."
 echo "Waiting for database to be ready..."
 
-# Wait for DB ready
-until pg_isready -h ${POSTGRES_HOST} -p ${POSTGRES_PORT} -U ${POSTGRES_USER}; do
+until pg_isready -h "$POSTGRES_HOST" -p "$POSTGRES_PORT" -U "$POSTGRES_USER"; do
   echo "Waiting for database..."
   sleep 2
 done
