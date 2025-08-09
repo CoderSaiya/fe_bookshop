@@ -1,0 +1,135 @@
+{
+    "nav": {
+        "home": "Home",
+        "products": "Products",
+        "categories": "Categories",
+        "about": "About",
+        "contact": "Contact",
+        "search": "Search products...",
+        "cart": "Cart"
+    },
+    "auth": {
+        "signIn": "Sign In",
+        "signOut": "Sign Out",
+        "signInWithGoogle": "Sign in with Google",
+        "signInWithFacebook": "Sign in with Facebook",
+        "profile": "Profile",
+        "orders": "Orders",
+        "settings": "Settings",
+        "createAccount": "Create Account",
+        "createAccountDescription": "Enter your information to create an account",
+        "signInDescription": "Enter your credentials to sign in",
+        "fullName": "Full Name",
+        "enterFullName": "Enter your full name",
+        "email": "Email",
+        "enterEmail": "Enter your email",
+        "password": "Password",
+        "enterPassword": "Enter your password",
+        "confirmPassword": "Confirm Password",
+        "creating": "Creating...",
+        "signingIn": "Signing in...",
+        "alreadyHaveAccount": "Already have an account?",
+        "dontHaveAccount": "Don't have an account?",
+        "orContinueWith": "Or continue with"
+    },
+    "hero": {
+        "title": "Discover Amazing Products",
+        "subtitle": "Shop the latest trends and find everything you need in one place",
+        "shopNow": "Shop Now"
+    },
+    "featured": {
+        "title": "Featured Products",
+        "viewAll": "View All Products"
+    },
+    "categories": {
+        "title": "Shop by Category",
+        "viewAll": "View All Categories"
+    },
+    "product": {
+        "addToCart": "Add to Cart",
+        "viewDetails": "View Details",
+        "price": "Price",
+        "category": "Category",
+        "rating": "Rating",
+        "reviews": "reviews"
+    },
+    "cart": {
+        "title": "Shopping Cart",
+        "empty": "Your cart is empty",
+        "total": "Total",
+        "checkout": "Checkout",
+        "remove": "Remove",
+        "quantity": "Quantity"
+    },
+    "footer": {
+        "company": "Company",
+        "about": "About Us",
+        "careers": "Careers",
+        "press": "Press",
+        "support": "Support",
+        "help": "Help Center",
+        "faq": "FAQ",
+        "contact": "Contact Us",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "newsletter": "Newsletter",
+        "subscribe": "Subscribe to our newsletter",
+        "email": "Enter your email",
+        "subscribeBtn": "Subscribe"
+    },
+    "search": {
+        "title": "Search Results",
+        "noResults": "No products found",
+        "searchFor": "Search for"
+    },
+    "filter": {
+        "filters": "Filters",
+        "priceRange": "Price Range",
+        "brand": "Brand",
+        "rating": "Rating",
+        "clearAll": "Clear All"
+    },
+    "checkout": {
+        "title": "Checkout",
+        "shipping": "Shipping Information",
+        "payment": "Payment Method",
+        "review": "Review Order",
+        "placeOrder": "Place Order",
+        "orderConfirmed": "Order Confirmed!",
+        "orderNumber": "Order Number",
+        "processing": "Processing...",
+        "cashOnDelivery": "Cash on Delivery",
+        "vnpay": "VNPay Payment",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shippingCost": "Shipping",
+        "tax": "Tax",
+        "orderSummary": "Order Summary"
+    },
+    "orders": {
+        "title": "My Orders",
+        "orderNumber": "Order #",
+        "status": "Status",
+        "total": "Total",
+        "date": "Date",
+        "viewDetails": "View Details",
+        "noOrders": "No orders found",
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "processing": "Processing",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
+    },
+    "payment": {
+        "selectMethod": "Select Payment Method",
+        "codTitle": "Cash on Delivery",
+        "codDescription": "Pay when you receive your order",
+        "vnpayTitle": "VNPay",
+        "vnpayDescription": "Pay online with VNPay gateway",
+        "comingSoon": "Coming Soon",
+        "secure": "Secure Payment",
+        "processing": "Processing Payment..."
+    }
+}

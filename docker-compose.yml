@@ -1,0 +1,67 @@
+services:
+    # PostgreSQL Database
+    postgres:
+        image: postgres:15-alpine
+        container_name: bookstore_postgres
+        restart: unless-stopped
+        environment:
+            POSTGRES_DB: ${POSTGRES_DB}
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        networks:
+            - bookstore_network
+        healthcheck:
+            test:
+                [
+                    "CMD-SHELL",
+                    "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}",
+                ]
+            interval: 30s
+            timeout: 10s
+            retries: 3
+
+    # Next.js Application
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: bookstore_app
+        restart: unless-stopped
+        environment:
+            - NODE_ENV=${NODE_ENV}
+            - DATABASE_URL=${DATABASE_URL}
+            - NEXTAUTH_URL=${NEXTAUTH_URL}
+            - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+            - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+            - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+            - FACEBOOK_CLIENT_ID=${FACEBOOK_CLIENT_ID}
+            - FACEBOOK_CLIENT_SECRET=${FACEBOOK_CLIENT_SECRET}
+        ports:
+            - "3000:3000"
+        depends_on:
+            postgres:
+                condition: service_healthy
+        networks:
+            - bookstore_network
+        healthcheck:
+            test:
+                [
+                    "CMD-SHELL",
+                    "wget --no-verbose --tries=1 --spider http://localhost:3000/api/health || exit 1",
+                ]
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 60s
+
+volumes:
+    postgres_data:
+        driver: local
+
+networks:
+    bookstore_network:
+        driver: bridge

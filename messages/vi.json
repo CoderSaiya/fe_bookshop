@@ -1,0 +1,135 @@
+{
+    "nav": {
+        "home": "Trang chủ",
+        "products": "Sản phẩm",
+        "categories": "Danh mục",
+        "about": "Giới thiệu",
+        "contact": "Liên hệ",
+        "search": "Tìm kiếm sản phẩm...",
+        "cart": "Giỏ hàng"
+    },
+    "auth": {
+        "signIn": "Đăng nhập",
+        "signOut": "Đăng xuất",
+        "signInWithGoogle": "Đăng nhập với Google",
+        "signInWithFacebook": "Đăng nhập với Facebook",
+        "profile": "Hồ sơ",
+        "orders": "Đơn hàng",
+        "settings": "Cài đặt",
+        "createAccount": "Tạo tài khoản",
+        "createAccountDescription": "Nhập thông tin của bạn để tạo tài khoản",
+        "signInDescription": "Nhập thông tin đăng nhập của bạn",
+        "fullName": "Họ và tên",
+        "enterFullName": "Nhập họ và tên",
+        "email": "Email",
+        "enterEmail": "Nhập email",
+        "password": "Mật khẩu",
+        "enterPassword": "Nhập mật khẩu",
+        "confirmPassword": "Xác nhận mật khẩu",
+        "creating": "Đang tạo...",
+        "signingIn": "Đang đăng nhập...",
+        "alreadyHaveAccount": "Đã có tài khoản?",
+        "dontHaveAccount": "Chưa có tài khoản?",
+        "orContinueWith": "Hoặc tiếp tục với"
+    },
+    "hero": {
+        "title": "Khám phá những sản phẩm tuyệt vời",
+        "subtitle": "Mua sắm những xu hướng mới nhất và tìm thấy mọi thứ bạn cần ở một nơi",
+        "shopNow": "Mua ngay"
+    },
+    "featured": {
+        "title": "Sản phẩm nổi bật",
+        "viewAll": "Xem tất cả sản phẩm"
+    },
+    "categories": {
+        "title": "Mua sắm theo danh mục",
+        "viewAll": "Xem tất cả danh mục"
+    },
+    "product": {
+        "addToCart": "Thêm vào giỏ",
+        "viewDetails": "Xem chi tiết",
+        "price": "Giá",
+        "category": "Danh mục",
+        "rating": "Đánh giá",
+        "reviews": "nhận xét"
+    },
+    "cart": {
+        "title": "Giỏ hàng",
+        "empty": "Giỏ hàng của bạn đang trống",
+        "total": "Tổng cộng",
+        "checkout": "Thanh toán",
+        "remove": "Xóa",
+        "quantity": "Số lượng"
+    },
+    "footer": {
+        "company": "Công ty",
+        "about": "Về chúng tôi",
+        "careers": "Tuyển dụng",
+        "press": "Báo chí",
+        "support": "Hỗ trợ",
+        "help": "Trung tâm trợ giúp",
+        "faq": "Câu hỏi thường gặp",
+        "contact": "Liên hệ",
+        "legal": "Pháp lý",
+        "privacy": "Chính sách bảo mật",
+        "terms": "Điều khoản dịch vụ",
+        "newsletter": "Bản tin",
+        "subscribe": "Đăng ký nhận bản tin",
+        "email": "Nhập email của bạn",
+        "subscribeBtn": "Đăng ký"
+    },
+    "search": {
+        "title": "Kết quả tìm kiếm",
+        "noResults": "Không tìm thấy sản phẩm",
+        "searchFor": "Tìm kiếm"
+    },
+    "filter": {
+        "filters": "Bộ lọc",
+        "priceRange": "Khoảng giá",
+        "brand": "Thương hiệu",
+        "rating": "Đánh giá",
+        "clearAll": "Xóa tất cả"
+    },
+    "checkout": {
+        "title": "Thanh toán",
+        "shipping": "Thông tin giao hàng",
+        "payment": "Phương thức thanh toán",
+        "review": "Xem lại đơn hàng",
+        "placeOrder": "Đặt hàng",
+        "orderConfirmed": "Đặt hàng thành công!",
+        "orderNumber": "Số đơn hàng",
+        "processing": "Đang xử lý...",
+        "cashOnDelivery": "Thanh toán khi nhận hàng",
+        "vnpay": "Thanh toán VNPay",
+        "total": "Tổng cộng",
+        "subtotal": "Tạm tính",
+        "shippingCost": "Phí vận chuyển",
+        "tax": "Thuế",
+        "orderSummary": "Tóm tắt đơn hàng"
+    },
+    "orders": {
+        "title": "Đơn hàng của tôi",
+        "orderNumber": "Đơn hàng #",
+        "status": "Trạng thái",
+        "total": "Tổng cộng",
+        "date": "Ngày",
+        "viewDetails": "Xem chi tiết",
+        "noOrders": "Không có đơn hàng nào",
+        "pending": "Chờ xử lý",
+        "confirmed": "Đã xác nhận",
+        "processing": "Đang xử lý",
+        "shipped": "Đã gửi hàng",
+        "delivered": "Đã giao hàng",
+        "cancelled": "Đã hủy"
+    },
+    "payment": {
+        "selectMethod": "Chọn phương thức thanh toán",
+        "codTitle": "Thanh toán khi nhận hàng",
+        "codDescription": "Thanh toán khi bạn nhận được hàng",
+        "vnpayTitle": "VNPay",
+        "vnpayDescription": "Thanh toán trực tuyến qua cổng VNPay",
+        "comingSoon": "Sắp ra mắt",
+        "secure": "Thanh toán an toàn",
+        "processing": "Đang xử lý thanh toán..."
+    }
+}
