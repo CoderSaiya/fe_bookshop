@@ -69,6 +69,7 @@ function ProductCard({ product }: ProductCardProps) {
                         alt={displayName}
                         fill
                         className="object-cover transition-transform group-hover:scale-105"
+                        unoptimized
                     />
                 </div>
             </Link>

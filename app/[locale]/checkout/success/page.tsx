@@ -240,6 +240,7 @@ export default function CheckoutSuccessPage() {
                                                     alt={item.book.title}
                                                     fill
                                                     className="object-cover"
+                                                    unoptimized
                                                 />
                                             </div>
                                             <div className="flex-1">

@@ -139,6 +139,7 @@ export default function AboutPage() {
                                     alt="Bookstore interior"
                                     fill
                                     className="object-cover"
+                                    unoptimized
                                 />
                             </div>
                         </div>

@@ -67,6 +67,7 @@ export default async function SingleProductPage({
                                     fill
                                     className="object-cover rounded-lg shadow-lg"
                                     priority
+                                    unoptimized
                                 />
                                 {book.featured && (
                                     <Badge className="absolute top-4 left-4 bg-red-500">
@@ -98,6 +99,7 @@ export default async function SingleProductPage({
                                                     }`}
                                                     fill
                                                     className="object-cover rounded-md"
+                                                    unoptimized
                                                 />
                                             </div>
                                         ))}

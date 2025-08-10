@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Card, CardContent } from "./ui/card";
 
 interface CategoryCardProps {
-  category: Category;
+    category: Category;
 }
 
 /**
@@ -15,23 +15,24 @@ interface CategoryCardProps {
  * @returns {JSX.Element} The rendered CategoryCard component.
  */
 function CategoryCard({ category }: CategoryCardProps) {
-  return (
-    <Link href={`categories/${category.slug}`}>
-      <Card className="overflow-hidden transition-all hover:shadow-md py-0 gap-0">
-        <div className="aspect-square relative">
-          <Image
-            src={category.image || "/placeholder.svg"}
-            alt={category.name}
-            fill
-            className="object-cover"
-          />
-        </div>
-        <CardContent className="p-4">
-          <h3 className="font-medium text-center">{category.name}</h3>
-        </CardContent>
-      </Card>
-    </Link>
-  );
+    return (
+        <Link href={`categories/${category.slug}`}>
+            <Card className="overflow-hidden transition-all hover:shadow-md py-0 gap-0">
+                <div className="aspect-square relative">
+                    <Image
+                        src={category.image || "/placeholder.svg"}
+                        alt={category.name}
+                        fill
+                        className="object-cover"
+                        unoptimized
+                    />
+                </div>
+                <CardContent className="p-4">
+                    <h3 className="font-medium text-center">{category.name}</h3>
+                </CardContent>
+            </Card>
+        </Link>
+    );
 }
 
 export default CategoryCard;
